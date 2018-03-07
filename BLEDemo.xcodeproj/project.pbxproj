@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F63564EB204D19E7006C98CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63564EA204D19E7006C98CB /* AppDelegate.swift */; };
-		F63564ED204D19E7006C98CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63564EC204D19E7006C98CB /* ViewController.swift */; };
 		F63564F0204D19E7006C98CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63564EE204D19E7006C98CB /* Main.storyboard */; };
 		F63564F2204D19E8006C98CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63564F1204D19E8006C98CB /* Assets.xcassets */; };
 		F63564F5204D19E9006C98CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63564F3204D19E9006C98CB /* LaunchScreen.storyboard */; };
+		F63EDF1B204E94CE001071A3 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63EDF1A204E94CE001071A3 /* ServicesViewController.swift */; };
+		F63EDF1D204E9660001071A3 /* BLEListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63EDF1C204E9660001071A3 /* BLEListViewController.swift */; };
+		F63EDF1F204E9679001071A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63EDF1E204E9679001071A3 /* AppDelegate.swift */; };
+		F6A6D7B4204EB68E00CD97A6 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6D7B3204EB68E00CD97A6 /* CharacterViewController.swift */; };
+		F6A6D7B6204F740800CD97A6 /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6D7B5204F740800CD97A6 /* OperationViewController.swift */; };
+		F6A6D7B8204F94B200CD97A6 /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6D7B7204F94B200CD97A6 /* DataExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F63564E7204D19E6006C98CB /* BLEDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F63564EA204D19E7006C98CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F63564EC204D19E7006C98CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F63564EF204D19E7006C98CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F63564F1204D19E8006C98CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63564F4204D19E9006C98CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F63564F6204D19E9006C98CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63EDF1A204E94CE001071A3 /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		F63EDF1C204E9660001071A3 /* BLEListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEListViewController.swift; sourceTree = "<group>"; };
+		F63EDF1E204E9679001071A3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6A6D7B3204EB68E00CD97A6 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		F6A6D7B5204F740800CD97A6 /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		F6A6D7B7204F94B200CD97A6 /* DataExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		F63564E9204D19E6006C98CB /* BLEDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F63564EA204D19E7006C98CB /* AppDelegate.swift */,
-				F63564EC204D19E7006C98CB /* ViewController.swift */,
 				F63564EE204D19E7006C98CB /* Main.storyboard */,
+				F63EDF1E204E9679001071A3 /* AppDelegate.swift */,
+				F63EDF1C204E9660001071A3 /* BLEListViewController.swift */,
+				F63EDF1A204E94CE001071A3 /* ServicesViewController.swift */,
+				F6A6D7B3204EB68E00CD97A6 /* CharacterViewController.swift */,
+				F6A6D7B5204F740800CD97A6 /* OperationViewController.swift */,
 				F63564F1204D19E8006C98CB /* Assets.xcassets */,
 				F63564F3204D19E9006C98CB /* LaunchScreen.storyboard */,
 				F63564F6204D19E9006C98CB /* Info.plist */,
+				F6A6D7B7204F94B200CD97A6 /* DataExt.swift */,
 			);
 			path = BLEDemo;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63564ED204D19E7006C98CB /* ViewController.swift in Sources */,
-				F63564EB204D19E7006C98CB /* AppDelegate.swift in Sources */,
+				F6A6D7B4204EB68E00CD97A6 /* CharacterViewController.swift in Sources */,
+				F6A6D7B8204F94B200CD97A6 /* DataExt.swift in Sources */,
+				F6A6D7B6204F740800CD97A6 /* OperationViewController.swift in Sources */,
+				F63EDF1B204E94CE001071A3 /* ServicesViewController.swift in Sources */,
+				F63EDF1F204E9679001071A3 /* AppDelegate.swift in Sources */,
+				F63EDF1D204E9660001071A3 /* BLEListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -281,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BLEDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BLEDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
